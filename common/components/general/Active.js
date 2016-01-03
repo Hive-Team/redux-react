@@ -1,8 +1,5 @@
 import React, { Component, PropTypes , defaultProps } from 'react'
 import { getRouter , httpGET } from '../../config/Api'
-import { jq } from '../../../vendors/vendors'
-
-const $ = jq();
 
 class Active extends Component {
   constructor(props) {

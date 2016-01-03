@@ -2,9 +2,6 @@ import React, { Component, PropTypes } from 'react'
 import AppContainer from './general/AppContainer'
 import Active from './general/Active'
 import { httpGET } from '../config/Api'
-import { jq } from '../../vendors/vendors'
-
-const $ = jq();
 
 class Demo extends Component {
   constructor(props) {

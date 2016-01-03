@@ -1,7 +1,4 @@
 import React, { Component, PropTypes } from 'react'
-import { jq } from '../../../vendors/vendors'
-
-const $ = jq();
 
 class AppBody extends Component {
 

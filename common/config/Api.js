@@ -1,7 +1,3 @@
-import { jq } from '../../vendors/vendors'
-
-const $ = jq();
-
 function baseUrl (){
   let config = {
     protocol : 'http://',
